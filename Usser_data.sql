@@ -1,0 +1,1 @@
+create table if not exists user_data (id serial primary key,id_seeker integer not null, id_vk integer not null, user_name text not null, user_age integer not null, gender integer not null);
